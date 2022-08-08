@@ -1,1 +1,70 @@
 
+:root {
+    --black:#000000;
+    --purple: #e600ff;
+    --white: #ffffff;
+}
+*  {
+    background-color: var(--black);
+    color: var (--white);
+    border-color: var (--purple); 
+
+}
+
+body {
+    /*this crteates the columns of the whole body*/
+    display: flex;
+    flex-direction: column;
+}
+section {
+    /* this creates the flex row*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: var(--black);
+    color: var(--white);
+    border-width: 0px;
+
+    
+
+}
+header { 
+    background-color: var(--black)
+    color: var(--purple)
+    border-color: var(--black)
+    ;
+}
+h2{
+    background-color: var(--black);
+    color: var(--purple);
+    margin-top: 0px;
+    border-style: solid;
+    border-color: var(--black);
+
+}
+p {
+    background-color: var(black);
+    color: var(--white);
+}
+
+ul {
+    background-color: var(--purple);
+    color: var(--white);
+
+}
+li {
+    background-color: var(--purple);
+    color: var(--white);
+}
+
+div {
+    margin-top: 50px;
+    margin-right: 50px;
+    background-color: var(--black);
+
+}
+
+.code {
+    border-style: dotted;
+}
+
